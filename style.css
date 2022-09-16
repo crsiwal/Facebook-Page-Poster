@@ -1,0 +1,33 @@
+label.group_label.group_label_1 {
+   /* float: left;
+    width: 50%;*/
+    text-align: left;
+    display: block;
+}
+
+label.group_label.group_label_2 {
+    /*float: right;
+    width: 50%;
+    */
+    display: block;
+    text-align: left;
+}
+
+.label_select_all_1,
+.label_select_all_2 {
+	text-align: left;
+}
+
+.row.row_main {
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.label_select_all_all label {
+    display: block;
+    text-align: left;
+}
+
+img {
+    max-width: 100%;
+}
