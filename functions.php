@@ -113,8 +113,7 @@ function authenticate_btn() {
 	global $fb;
 
 	$helper = $fb->getRedirectLoginHelper();
-	$permissions = ['email', 'manage_pages' , 'publish_pages']; // Optional permissions
-
+	$permissions = ['email', 'pages_manage_posts']; // Optional permissions
 	$loginUrl = $helper->getLoginUrl(SITE_URL."fb-callback.php", $permissions);
 
 	echo "<a href='$loginUrl' class='btn btn-primary btn-lg '>Click here to Authenticate</a>";

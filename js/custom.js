@@ -30,7 +30,7 @@ function call_next_page(queue) {
 
 	var data =  {
 		page_id: me.value,
-		img: IMGURL,
+		img: window.IMGURL,
 		text: caption
 	}
 
